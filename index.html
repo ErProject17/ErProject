@@ -1,0 +1,70 @@
+<html>
+
+<head>
+    <title>ErProject</title>
+    <link rel="stylesheet" href="style.css" />
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device=width, initial-scale=1" />
+</head>
+
+<body>
+    <div class="container-navbar">
+        <div class="logo">
+            <img src="assets/icon/logo.png" class="img-navbar" />
+            <h1 class="logo-navbar">ErProject</h1>
+        </div>
+        <nav>
+            <ul class="ul-navbar">
+                <li><a class="a-navbar" href="index.html">HOME</a></li>
+                <li><a class="a-navbar" href="#contact">ABOUT</a></li>
+                <li><a class="a-navbar" onclick="location.href='mailto:erproject1708@gmail.com'">CONTACT</a></li>
+            </ul>
+        </nav>
+        <button onclick="redirInstagram()" class="mt-10">FOLLOW ME</button>
+    </div>
+    <div class="container-content">
+        <div class="intro-content">
+            <p class="title-content">Hello, Eryan here!</p>
+            <p class="description-content">ErProject will be happy to help you</p>
+            <img src="assets/Foto 1.jpg" class="img-content" />
+        </div>
+    </div>
+    <div class="parallax-content">
+        <div class="tentang-content">
+            <p class="title-content" id="contact">Web ini dibuat oleh seorang programmer biasa bernama Eryan</p>
+            <p class="description-content">"Hasil tidak akan mengkhianati kerja keras"</p>
+            <button onclick="redirWhatsapp()">AYO KERJASAMA</button>
+        </div>
+        <div class="q-content">
+            <div class="card-content mt-10">
+                <img src="assets/icon/digital-services.png" class="icon" />
+                <p class="card-title">Layanan Tanpa Batas</p>
+                <p class="card-description">"Pelayanan terbaik ErProject ketika anda membutuhkan bantuan"</p>
+            </div>
+            <div class="card-content mt-10">
+                <img src="assets/icon/pay.png" class="icon" />
+                <p class="card-title">Biaya Jasa</p>
+                <p class="card-description">"Biaya jasa ErProject dijamin murah dan ekonomis"</p>
+            </div>
+            <div class="card-content mt-10">
+                <img src="assets/icon/rating.png" class="icon" />
+                <p class="card-title">178 Review</p>
+                <p class="card-description">"Mereka semua sangat senang bisa bekerja sama dengan ErProject"</p>
+            </div>
+        </div>
+    </div>
+    <div class="container-footer">
+        <p class="p-footer">&copy; Eryan Angger S Website 2023</p>
+    </div>
+    <script>
+        function redirWhatsapp() {
+            window.location.href = "https://wa.me/+6282183403937"
+        }
+        function redirInstagram() {
+            window.location.href = "https://www.instagram.com/erproject1708/"
+        }
+    </script>
+</body>
+
+</html>
